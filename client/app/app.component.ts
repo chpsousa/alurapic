@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Http } from '@angular/http';
 
 @Component({
     moduleId: module.id,
@@ -6,4 +7,9 @@ import { Component } from '@angular/core';
     templateUrl: './app.component.html' 
 })
 
-export class AppComponent { }
+export class AppComponent { 
+
+    constructor(http: Http) {
+
+    }
+}
